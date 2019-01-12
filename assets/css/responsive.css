@@ -1,0 +1,762 @@
+/*
+*   Siena HTML
+*   Copyright 2019, Royalz Store
+*  	www.royalz.store
+*/
+
+/* #Media Queries
+================================================== */
+
+	
+	/* Very Large Screens
+	================================================== */
+
+		@media only screen and (min-width: 1241px) {
+
+
+		}
+
+
+
+	/* Standard Screens
+	================================================== */
+
+
+		@media only screen and (max-width: 1240px) {
+
+
+		}
+
+
+	/* Large Tablets
+	================================================== */
+
+		@media only screen and (max-width: 1024px) {
+
+			/* Portfolio
+			================================================== */
+
+				section.portfolio.portfolio-layout-masonry .photograph {
+				    max-width: 100% !important;
+				}
+
+		}
+
+
+	/* Tablets
+	================================================== */
+
+		@media only screen and (max-width: 782px) {
+
+			html.page-admin-bar {    
+				-webkit-transform: translateY(-46px);
+				-moz-transform: translateY(-46px);
+				-ms-transform: translateY(-46px);
+				-o-transform: translateY(-46px);
+				transform: translateY(-46px);
+			}
+
+			html.page-admin-bar body.admin-bar {
+				padding-top: 46px;
+			}
+
+		}
+
+
+		@media only screen and (max-width: 782px) {
+
+
+			/* Grid System
+			================================================== */
+
+				.container .one-quarter.column { 
+					width: 100%;
+				}
+
+				.container .one-third.column { 
+					width: 100%;
+				}
+
+				.container .two-thirds.column { 
+					width: 100%;
+				}
+
+				.container .one-half.column { 
+					width: 100%;
+				}
+
+				.container .one-full.column {
+					width: 100%;
+				}
+
+
+			/* Header
+			================================================== */
+
+				header.header {
+					padding-left: 0px;
+	    			padding-right: 0px;
+				}
+
+				header.header .header-desktop {
+					display: none;
+				}
+
+				header.header .header-mobile {
+					display: block;
+					padding-left: 0px;
+	    			padding-right: 0px;
+				}
+
+
+			/* Footer
+			================================================== */
+
+				footer.footer {
+					
+				}
+
+				footer.footer .left {
+					text-align: center;
+				}
+
+				footer.footer .right {
+					margin-top: 30px;
+					text-align: center;
+				}
+
+
+			/* Portfolio
+			================================================== */
+
+				section.portfolio.portfolio-layout-masonry .photograph {
+				    max-width: 100% !important;
+				}
+
+
+			/* Blog
+			================================================== */
+
+				.blog-sidebar {
+					display: none;
+				}
+
+		}
+
+
+	/* Small Tablets
+	================================================== */
+
+		@media only screen and (min-width: 480px) and (max-width: 782px) { 
+
+		
+			/* Blog
+			================================================== */
+
+				section.blog .blog-content {
+					padding-bottom: 64px;
+					width: 100% !important;
+				}
+
+				section.blog .blog-posts .post {
+					height: 100%;
+					margin-bottom: 50px;
+					margin-left: 0px !important;
+					margin-right: 0px !important;
+				}
+
+				section.blog.blog-with-sidebar .blog-main {
+					width: 100% !important;
+				}	
+
+		}
+
+
+	/* Phones
+	================================================== */
+
+		@media only screen and (max-width: 479px) {
+
+
+			/* Base
+			================================================== */
+
+
+				/* Section Cover
+				================================================== */
+
+					.button {
+					    height: 60px;
+					    padding-left: 44px;
+					    padding-right: 50px;
+					}
+
+
+				/* Section Cover
+				================================================== */
+
+					.container.narrow {
+					    padding-left: 6.25% !important;
+					    padding-right: 6.25% !important;
+					}
+
+
+				/* Section Cover
+				================================================== */
+
+					.section-cover,
+					.section-cover .media,
+					.section-cover .content {
+					    height: 264px;
+					}
+
+					.section-cover .content {
+					    margin-top: -264px;
+					    padding-top: 34px;
+					}
+
+					.section-cover .content .headline {
+					    font-size: 45px;
+					}
+
+
+				/* Select Box
+				================================================== */
+
+					.js-select-box-active .box-list {
+						bottom: 0px;
+						left: 0px;
+						margin-top: 0px;
+						position: fixed;
+						right: 0px;
+						top: 0px;
+						z-index: 10000;
+					}
+
+					.js-select-box-active .box-list {
+						-webkit-align-items: center;
+						align-items: center;
+					}
+
+					.js-select-box-active .box-list {
+						left: 0px;		    
+						padding-left: 8.8% !important;
+				    	padding-right: 8.8% !important;
+						right: 0px;	
+					}
+
+					.js-select-box-active .box-list {
+						display: -webkit-box;
+						display: -moz-box;
+						display: -ms-flexbox; 
+						display: -webkit-flex;
+						display: flex; 
+					}
+
+					.js-select-box .box-list ul {
+					    max-height: 100%;
+					}
+
+					.js-select-box .box-list li {
+					    font-size: 30px;
+					    line-height: 1.66;
+					}
+
+
+			/* Layout
+			================================================== */
+			
+
+				/* Home
+				================================================== */
+
+					/* Slide Content
+					================================================== */
+
+						section.home .slide-content .headline {
+							font-size: 32px;
+    						margin-bottom: 9px;
+						}
+
+						section.home .slide-content .tagline {
+							font-size: 15px;
+							line-height: 2;
+							margin-bottom: 30px;
+						}
+
+						section.home .slider-nav {
+							display: none;
+						}
+
+
+				/* Portfolio
+				================================================== */
+
+
+					/* Portfolio Cover
+					================================================== */
+
+						section.portfolio-with-cover .portfolio-albums,
+						section.portfolio-with-cover .portfolio-layouts {
+						    padding-bottom: 12%;
+						    padding-left: 0px;
+						    padding-right: 0px;
+						    padding-top: 12%;
+						}
+
+						section.portfolio-with-cover .portfolio-layouts {
+							display: none;
+						}
+
+						section.portfolio-with-cover .portfolio-tools .js-select-box-large .box-list {
+							left: 0px;
+						}
+
+
+					/* Portfolio Header
+					================================================== */
+
+						section.portfolio-with-header .section-header {
+						    padding-top: 152px;
+						}
+
+						section.portfolio-with-header .section-header .headline,
+						section.portfolio-with-header .portfolio-tools .js-select-box-large .box-selected,
+						section.portfolio-with-header .portfolio-tools .js-select-box-large .box-list li {
+						    font-size: 30px;
+						}
+
+						section.portfolio-with-header .portfolio-tools .js-select-box-large .box-selected {
+						    border-bottom-width: 4px;
+						}
+
+
+					/* Portfolio Sidebar
+					================================================== */
+
+						section.portfolio .portfolio-sidebar {
+						    padding-bottom: 36px;
+						    padding-top: 0px;
+						    width: 100%;
+						}
+
+						section.portfolio .portfolio-sidebar .sidebar-albums {
+							display: none;
+						}
+
+						section.portfolio .portfolio-sidebar .sidebar-albums-select {
+							display: block;
+						}
+
+						section.portfolio .portfolio-sidebar .sidebar-albums-select > .container {
+							-webkit-justify-content: flex-end;
+							justify-content: flex-end;
+						}
+
+
+					/* Portfolio Grid
+					================================================== */
+
+						section.portfolio-with-header .portfolio-content {
+						    padding-bottom: 0px;
+						    padding-top: 38px;
+						}
+
+						section.portfolio-with-sidebar .portfolio-content {
+						    padding-bottom: 10px;
+						    padding-top: 10px;
+						}
+
+						section.portfolio-with-cover .portfolio-grid {
+						    padding-top: 0px;
+						}
+
+						section.portfolio .portfolio-grid .photograph:hover a {
+							border-width: 17.5px;
+						}
+
+						section.portfolio.portfolio-layout-cols-4 .photograph {
+							height: 0px !important;
+				    		padding-bottom: calc(25% - 25px);
+							width: 100% !important;
+						}
+
+						section.portfolio .portfolio-grid .photograph {
+						    border-width: 0px;
+						    margin-bottom: 25px;
+						}
+
+						section.portfolio .portfolio-grid .photograph:last-child {
+						    margin-bottom: 0px;
+						}
+
+						section.portfolio .portfolio-main {
+						    margin-left: 0px !important;
+						    margin-right: 0px !important;
+						    width: 100%;
+						}
+
+						section.portfolio .portfolio-grid .photograph,
+						section.portfolio.portfolio-layout-masonry .photograph,
+						section.portfolio.portfolio-layout-list .photograph,
+						section.portfolio.portfolio-layout-cols-2 .photograph,
+						section.portfolio.portfolio-layout-cols-3 .photograph,
+						section.portfolio.portfolio-layout-cols-4 .photograph {
+							height: 200px !important;
+							max-width: 100% !important;
+							width: 100% !important;
+						}
+
+						section.portfolio.portfolio-layout-masonry .photograph {
+						    max-width: 100% !important;
+						}
+
+
+					/* Portfolio Empty
+					================================================== */
+
+						section.portfolio-with-header .portfolio-empty {
+							padding-top: 30px;
+						}
+
+						section.portfolio-with-header .portfolio-empty {
+							-webkit-transform: scale(0.5);
+							-moz-transform: scale(0.5);
+							-ms-transform: scale(0.5);
+							-o-transform: scale(0.5);
+							transform: scale(0.5);
+						}
+
+
+					/* Portfolio Footer
+					================================================== */
+
+						section.portfolio .portfolio-footer {
+							margin-bottom: 10px;
+						    padding-bottom: 5px;
+						    padding-top: 5px;
+						}
+
+
+				/* Photograph
+				================================================== */
+
+
+					/* Photograph Media
+					================================================== */
+
+						section.photograph .photograph-media {
+						    padding-bottom: 15px;
+						    padding-top: 10px;
+						}
+
+						section.photograph .photograph-media-file {
+						    min-height: 200px;
+						    margin-left: 0px !important;
+						    margin-right: 0px !important;
+						}
+
+
+					/* Photograph Content
+					================================================== */
+
+						section.photograph .photograph-title {
+						    font-size: 30px;
+						    line-height: 1.2;
+						    word-break: break-word;
+						}
+
+						section.photograph .photograph-title {
+						    padding-bottom: 20px;
+						    padding-top: 20px;
+						}
+
+						section.photograph .photograph-title {
+						    width: 60%;
+						}
+
+						section.photograph .photograph-share {
+							width: 40%;
+						}
+
+						section.photograph .photograph-share .share-channel {
+						    margin-left: 40px;
+						}
+
+						section.photograph .photograph-share .share-channel span {
+							display: none;
+						}
+
+
+					/* Photograph Details
+					================================================== */
+
+						section.photograph .photograph-details {
+						    padding-bottom: 46px;
+						}
+
+						section.photograph .photograph-details:before {
+						    margin-bottom: 24px;
+						}
+
+						section.photograph .photograph-detail {
+						    padding-bottom: 15px;
+						    padding-left: 24px;
+						    padding-top: 15px;
+						    width: 50%;
+						}
+
+						section.photograph .photograph-detail:nth-child(4n+1) {
+						    padding-left: 24px;
+						}
+
+						section.photograph .photograph-detail:nth-child(2n+1) {
+						    padding-left: 0px;
+						}
+
+						section.photograph .photograph-detail .name {
+						    font-size: 8.5px;
+						    line-height: 3.5;
+						}
+
+						section.photograph .photograph-detail .value {
+						    font-size: 22px;
+						    line-height: 1.63;
+						}
+
+
+				/* About
+				================================================== */
+
+
+					/* About Content
+					================================================== */
+
+						section.about .section-text .headline {
+							font-size: 35px;
+							margin-bottom: 14px;
+						}
+
+						section.about .section-text .description {
+							font-size: 12px;
+							line-height: 2;
+						}
+
+						section.about .section-text .description.with-bottom {
+							margin-bottom: 36px;
+						}
+
+
+				/* Contact
+				================================================== */
+
+					section.contact .section-content {
+					    padding-bottom: 42px;
+					    padding-left: 8.8% !important;
+					    padding-right: 8.8% !important;
+					    padding-top: 42px;
+					}
+
+					section.contact .info .description {
+					    margin-bottom: 30px;
+					}
+
+					section.contact .info {
+						margin-bottom: 75px;
+					    padding-left: 0px;
+					    padding-right: 0px;
+					}
+
+					section.contact .form {
+					    padding-left: 0px;
+					}
+
+
+				/* Blog
+				================================================== */
+
+					.blog-sidebar {
+						display: none;
+					}
+
+					section.blog .section-header:not(.section-cover) {
+					    padding-top: 102px;
+					}
+
+					section.blog .section-header:not(.section-cover) .headline {
+					    font-size: 45px;
+					    line-height: 1.25;
+					}
+
+					section.blog .blog-main {
+					    padding-bottom: 39px;
+					    padding-top: 65px;
+					}
+
+					section.blog.blog-with-sidebar .blog-main {
+						width: 100% !important;
+					}
+
+					section.blog .blog-grid .post {
+					    height: auto;
+					    margin-bottom: 39px;
+					    margin-left: 0px;
+					    margin-right: 0px !important;
+					    opacity: 1;
+					    width: 100%;
+					}
+
+					section.blog .blog-grid .post .image {
+						width: 100%;
+					}
+
+					section.blog .blog-grid .post .info {
+					    left: auto;
+					    opacity: 1;
+					    position: relative;
+					    top: auto;
+					    width: 100%;
+					}
+
+					section.blog .blog-grid .post .info .container {
+					    padding-bottom: 9px;
+					    padding-left: 0px;
+					    padding-right: 0px;
+					    padding-top: 0px;
+					}
+
+					section.blog .blog-grid .post .link,
+					section.blog .blog-grid .post .sticky {
+					    width: 50%;
+					}
+
+
+				/* Article
+				================================================== */
+
+					section.article {
+					    padding-bottom: 100px;
+					    padding-top: 50px;
+					}
+
+					section.article .section-header .entry-title {
+					    font-size: 24px;
+					    font-weight: 500;
+					    line-height: 1.5;
+					    padding-bottom: 22px;
+					    word-break: break-all;
+					}
+
+					section.article .section-header .entry-meta span {
+					    font-size: 9px;
+					    line-height: 2.5;
+					    margin-right: 10px;
+					}
+
+					section.article .section-header .entry-thumbnail {
+					    padding-bottom: 22px;
+					    padding-left: 8px;
+					    padding-right: 8px;
+					    padding-top: 22px;
+					}
+
+					section.article .post-content blockquote {
+					    margin-left: 0px;
+					    margin-right: 0px;
+					}
+
+					section.article .post-content .wp-caption.alignleft {
+					    margin-left: 0px; 
+					    text-align: left;
+					}
+
+					section.article .post-content .wp-caption.alignright {
+					    margin-right: 0px; 
+					    text-align: right;
+					}
+
+					section.article .post-share .share-channel {
+						margin-left: 40px;
+					}
+
+					section.article .post-share .share-channel span {
+						display: none;
+					}
+
+
+				/* Comments
+				================================================== */
+
+					section.article .section-footer .post-comments {
+					    margin-top: 20px;
+					    padding-top: 20px;
+					}
+
+					.comment-list .comment-body {
+						margin-bottom: 28px;
+					    padding-left: 15px;
+					    padding-right: 15px;
+					    margin-top: 30px;
+					}
+
+					.comments-area {
+					    padding-left: 0px;
+					    padding-right: 0px;
+					}
+
+					.comments-area .comments-title {
+					    font-size: 24px;
+					    margin-bottom: -5px;
+					}
+
+					.comment-list .comment-author {
+					    width: 60px;
+					}
+
+					.comment-list .comment-author img {
+					    border-radius: 60px;
+					    height: 60px;
+					    width: 60px;
+					}
+
+					.comment-list .comment-meta {
+					    padding-left: 15px;
+					    padding-right: 0px;
+					}
+
+					.comment-list .comment-meta .date {
+						margin-bottom: 0px;
+					}
+
+					.comments-area .comment-list .comment {
+
+					}
+
+					.comments-area .comment-respond .comment-form {
+					    padding-bottom: 25px;
+					    padding-left: 20px;
+					    padding-right: 20px;
+					    padding-top: 22px;
+					}
+
+					.comments-area .comment-list .comment .comment-info {
+						margin-bottom: 10px;
+					}
+
+					.comments-area .comment-list .comment .comment-content {
+					    margin-top: 0px;
+					    padding-bottom: 22px;
+					    padding-left: 0px;
+					}
+
+					.comments-area .comment-list .comment .comment-links {
+					    padding-left: 0px;
+					}
+
+					.comments-area .comment-list .comment .children {
+					    margin-left: 5px;
+					    padding-left: 0px;
+					}
+
+
+		}
